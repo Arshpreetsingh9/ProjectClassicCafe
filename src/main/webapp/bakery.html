@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+Data Pirates
+    Project
+    Group Members: Arshpreet Singh, Gurkirat Kaur, Prabhpreet Sembhi, Ravneet Kaur
+    Topic: Classis Cafe
+-->
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Classic Cafe</title>
+
+<link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<div class=" horizontalnav" style="overflow: hidden;">
+			<img src="media/image.png"
+				style="width: 130px; height: 90px; float: left; margin-left: 5%">
+			<nav>
+				<ul>
+					<li><a href="Contact.html">CONTACT US</a></li>
+					<li><a href="Home.html">HOME</a></li>
+					<li><a href="Menu.html">MENU</a></li>
+					<li><a href="Rewards.html">REWARDS</a></li>
+					<li><a
+						onclick="document.getElementById('sign_up_form').style.display='block'"
+						style="width: auto; color: rgb(2, 126, 110); cursor: pointer;">Join
+							now</a></li>
+					<li><a
+						onclick="document.getElementById('sign_in_form').style.display='block'"
+						style="width: auto; color: rgb(2, 126, 110); cursor: pointer;">Log
+							in</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+	<br />
+	<img src="media/menucoffee.jpeg" class="menuimage"
+		style="width: 100%; height: 550px;">
+
+	<div class="prepare"">
+		<h1>PREPARE YOUR ORDER HERE</h1>
+	</div>
+
+	<div class="verticalnav">
+		<ul class="nav">
+			<li><a href="menu.html">Beverages</a></li>
+			<li><a href="bakery.html">Bakery</a></li>
+		</ul>
+	</div>
+	<div class="rowm" style="padding: 5%">
+		<div class="columnm" style="background-color: white;">
+			<img src="media/cinnamon.png"
+				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
+			<h2>CINNAMON ROLL</h2>
+			<h6>(Rolled bread with a pinch of Cinnamon and glazed with sugar
+				at top)</h6>
+			<ul>
+				Size &nbsp;&nbsp;:&nbsp;
+				<select id="size">
+					<option>Small</option>
+					<option>Medium</option>
+					<option>Large</option>
+				</select>
+				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
+				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
+			</ul>
+			<button type="button" id="Add" style="width: 38%; float: right;">Add
+				to Cart</button>
+
+		</div>
+		<div class="columnm" style="background-color: white;">
+			<img src="media/muffin.png"
+				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
+			<h2>MUFFIN</h2>
+			<h6>(Banana Chocolate chip muffin filled with white chocolate
+				cream)</h6>
+			<ul>
+				Size &nbsp;&nbsp;:&nbsp;
+				<select id="size">
+					<option>Small</option>
+					<option>Medium</option>
+					<option>Large</option>
+				</select>
+				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
+				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
+			</ul>
+			<button type="button" id="Add" style="width: 38%; float: right;">Add
+				to Cart</button>
+		</div>
+	</div>
+
+	<div class="rowm" style="padding: 5%">
+		<div class="columnm" style="background-color: white">
+			<img src="media/cross.png"
+				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
+			<h2>BUTTER CROISSANT</h2>
+			<h6>(Regular croissant baked with a layer of butter inside.)</h6>
+			<ul>
+				Size &nbsp;&nbsp;:&nbsp;
+				<select id="size">
+					<option>Small</option>
+					<option>Medium</option>
+					<option>Large</option>
+				</select>
+				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
+				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
+			</ul>
+			<button type="button" id="Add" style="width: 38%; float: right;">Add
+				to Cart</button>
+		</div>
+		<div class="columnm" style="background-color: white;">
+			<img src="media/donut.jpg"
+				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
+			<h2>GLAZED DONUT</h2>
+			<h6>(A regular sweet donut with glazed sugar)</h6>
+			<ul>
+				Size &nbsp;&nbsp;:&nbsp;
+				<select id="size">
+					<option>Small</option>
+					<option>Medium</option>
+					<option>Large</option>
+				</select>
+				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
+				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
+			</ul>
+			<button type="button" id="Add" style="width: 38%; float: right;">Add
+				to Cart</button>
+		</div>
+	</div>
+</body>
+</html>

@@ -5,77 +5,41 @@ html {
     background-color:rgb(250, 250, 250);
 }
 
-/*HorizintalNavigation styles
+/*HorizintalNavigation styles*/
 
-div.horizontalnav {
-    width: 100%;  
-    color: black;
-    background-color:rgb(243, 241, 241);
-}
-div::after{
-    display: block;
-    content: "";
-    clear: both;
-}
-div.horizontalnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-    div .horizontalnav ul li {
-        
-        text-align: center;
-        width: 15%;
-        height: auto;
-        float: right;
-        color: black;
-        list-style: none;
-        padding: 14px 16px;
-    }
-
-div.horizontalnav ul li a {
-    display:block;
-    text-decoration: none;
-    font-family: Calibri;
-    color: black;
-    
-}
-div.horizontalnav ul li a:hover {
-    background: linear-gradient(to bottom,rgb(172, 165, 165),rgb(238, 234, 234));
-    }*/
 div.horizontalnav {
     width: 100%;
     color: black;
     background-color: rgb(243, 241, 241);
 }
-ul {
+div.horizontalnav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-li {
+div.horizontalnav li {
     width: auto;
     float: right;
 }
 
-li a {
+div.horizontalnav li a {
     float: right;
     display: block;
     color: black;
-    margin-bottom:inherit;
+    margin-bottom: inherit;
     text-align: center;
     padding: 36px 40px;
     text-decoration: none;
-    }
+}
 
   /* Change the link color on hover */
-li a:hover {
-     background: rgb(225, 224, 224);
-    }
-    li a:active {
-        background: rgb(2, 126, 110);
-    }
+ li a:hover {
+    background: rgb(225, 224, 224);
+}
+ li a:active {
+    background: rgb(2, 126, 110);
+}
 
 
 /* Slideshow container */
@@ -160,6 +124,7 @@ li a:hover {
 
 /* Create three equal columns that floats next to each other */
 .column {
+    border-radius: 10px;
     text-align: center;
     float: left;
     width: 33.11%;
@@ -167,12 +132,14 @@ li a:hover {
     outline: 3px solid #fff;
 }
 
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 
 /*Footer styles*/
 h5 {
@@ -276,7 +243,58 @@ img.menuimage {
 
 div.prepare {
     width: 100%;
-    padding :3%; 
-    color: black;
+    padding: 2%;
+    color: rgb(2, 126, 110);
     background-color: rgb(243, 241, 241);
+    font-family: Calibri;
+    text-align:center;
+    font-size:larger;
 }
+.columnm {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 350px;
+    outline: 3px solid #fff;
+}
+.rowm{
+    width:86%;
+    float:right;
+}
+.rowm h6 {
+    color:rgb(146, 143, 143);
+    font-family:'Segoe Script';
+    font-style:italic;
+}
+.rowm h2{
+    color:rgb(118, 48, 18);
+}
+/*Vertical Navigation Styles*/
+.verticalnav {
+    width: 11%;
+    float: left;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(225, 224, 224);
+}
+.nav li a {
+    display: block;
+    color: #000;
+    padding:16px 32px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    background-color: #555;
+    color: white;
+}
+.nav li a:active {
+    background-color: grey;
+}
+    
+
+
