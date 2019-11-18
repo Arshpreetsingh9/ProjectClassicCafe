@@ -1,0 +1,282 @@
+/*Structural Styles*/
+html {
+    height: 100%;
+    font-family: Calibri;
+    background-color:rgb(250, 250, 250);
+}
+
+/*HorizintalNavigation styles
+
+div.horizontalnav {
+    width: 100%;  
+    color: black;
+    background-color:rgb(243, 241, 241);
+}
+div::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+div.horizontalnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    div .horizontalnav ul li {
+        
+        text-align: center;
+        width: 15%;
+        height: auto;
+        float: right;
+        color: black;
+        list-style: none;
+        padding: 14px 16px;
+    }
+
+div.horizontalnav ul li a {
+    display:block;
+    text-decoration: none;
+    font-family: Calibri;
+    color: black;
+    
+}
+div.horizontalnav ul li a:hover {
+    background: linear-gradient(to bottom,rgb(172, 165, 165),rgb(238, 234, 234));
+    }*/
+div.horizontalnav {
+    width: 100%;
+    color: black;
+    background-color: rgb(243, 241, 241);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    width: auto;
+    float: right;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: black;
+    margin-bottom:inherit;
+    text-align: center;
+    padding: 36px 40px;
+    text-decoration: none;
+    }
+
+  /* Change the link color on hover */
+li a:hover {
+     background: rgb(225, 224, 224);
+    }
+    li a:active {
+        background: rgb(2, 126, 110);
+    }
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 96%;
+    position: relative;
+    margin: auto;
+}
+
+/* Hiding images */
+.mySlides {
+    display: none;
+    text-align:center;
+}
+
+
+/* Next and previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -20px;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: 0.4s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+/* Positioning 'next' button */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* Number of the slide image */
+.numbertext {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* Animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 0.8
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.8
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    text-align: center;
+    float: left;
+    width: 33.11%;
+    height: 300px;
+    outline: 3px solid #fff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Footer styles*/
+h5 {
+    color: rgb(42, 166, 194);
+}
+footer {
+    padding:12px;
+    display: block;
+    font-size: small;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+
+
+
+
+
+/*sign up styles*/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; /* Enable scroll if needed */
+  /*background-color: #474e5d;*/
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 70%; 
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*Menu styles*/
+img.menuimage {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+div.prepare {
+    width: 100%;
+    padding :3%; 
+    color: black;
+    background-color: rgb(243, 241, 241);
+}
