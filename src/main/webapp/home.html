@@ -78,16 +78,16 @@ Data Pirates
 
  <div id="sign_in_form" class="modal">
  
-  <form class="modal-content" action="/htmlform/LoginServlet">
+  <form class="modal-content" method="post" action="hello">
     <div class="container">
       <h1>Log in</h1>
       <p>Please enter your email and password</p>
       <hr>
       <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <input type="text" placeholder="Enter Email" name="login_email" required>
 
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="password" required>
+      <input type="password" placeholder="Enter Password" name="login_password" required>
 
 
       <div class="clearfix">
