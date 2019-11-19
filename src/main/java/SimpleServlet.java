@@ -62,14 +62,14 @@ public class SimpleServlet extends HttpServlet {
 			String login_email = request.getParameter("login_email");
 			String login_password = request.getParameter("login_password") ;
 			
-			validatelogin = statement.executeQuery("SELECT * FROM CUSTOMER WHERE EMAIL = '"+login_email + "' AND PASSWORD = '" + login_password+"'; ");
+		/*	validatelogin = statement.executeQuery("SELECT * FROM CUSTOMER WHERE EMAIL = '"+login_email + "' AND PASSWORD = '" + login_password+"'; ");
 			String check_email = validatelogin.getString(2);
 			String check_password = validatelogin.getString(3);
 			if(login_email.equalsIgnoreCase(check_email) && login_password.equals(check_password)) {
 				System.out.println("All good.");
 			}else {
 				System.out.println("There's no such record.");
-			}
+			}*/
 
 			
 			// Adding customer info to database.
