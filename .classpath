@@ -24,10 +24,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/offcampus/Downloads/JDBCWithMSAccessNotes/commons-lang3-3.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/offcampus/Downloads/JDBCWithMSAccessNotes/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/offcampus/Downloads/JDBCWithMSAccessNotes/hsqldb-2.5.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/offcampus/Downloads/JDBCWithMSAccessNotes/jackcess-3.0.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/offcampus/Downloads/JDBCWithMSAccessNotes/ucanaccess-4.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/25ars/Desktop/DriveStorage/CSIS-3275-SoftwareEngineering/JDBCWithMSAccessNotes/commons-lang3-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/25ars/Desktop/DriveStorage/CSIS-3275-SoftwareEngineering/JDBCWithMSAccessNotes/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/25ars/Desktop/DriveStorage/CSIS-3275-SoftwareEngineering/JDBCWithMSAccessNotes/hsqldb-2.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/25ars/Desktop/DriveStorage/CSIS-3275-SoftwareEngineering/JDBCWithMSAccessNotes/jackcess-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/25ars/Desktop/DriveStorage/CSIS-3275-SoftwareEngineering/JDBCWithMSAccessNotes/ucanaccess-4.0.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
