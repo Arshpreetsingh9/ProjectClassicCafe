@@ -7,12 +7,15 @@ Data Pirates
 -->
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Classic Cafe</title>
+<meta charset="utf-8" />
+<title>Classic Cafe</title>
+<link href="stylesheet.css" rel="stylesheet" />
+<script type="text/javascript" src="Cart.js"></script>
 
-    <link href="stylesheet.css" rel="stylesheet" />
+
 </head>
 <body>
+
     <header>
         <div class=" horizontalnav" style="overflow: hidden;">
             <img src="media/image.png" style="width:130px; height:90px; float:left; margin-left:5%">
@@ -34,85 +37,131 @@ Data Pirates
         <h1>PREPARE YOUR ORDER HERE</h1>
     </div>
 
-    <div class="verticalnav">
-        <ul class="nav">
-            <li><a href="menu.html">Beverages</a></li>
-            <li><a href="bakery.html">Bakery</a></li>
-        </ul>
-    </div>
-    <div class="rowm" style="padding:5%">
-        <div class="columnm" style="background-color:white; ">
-            <img src="media/esp.jpg" style="width:40% ;height:55%; text-align:center; margin-top:26px; float:left;" />
-            <h2>EXCLUSIVE BLEND</h2>
-            <h6>(Brewed from 100% Arabica beans, medium roasted for a balanced flavour)</h6>
-            <ul>
-                Size &nbsp;&nbsp;:&nbsp;
-                <select id="size">
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
-                </select></br>
+	</header>
+	<br />
+	<img src="media/menucoffee.jpeg" class="menuimage"
+		style="width: 100%; height: 550px;">
 
-                &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-                <input type="text" id="quantity" placeholder="0" style="width:11%" />
-            </ul>
-            <button type="button" id="Add" style="width:40%; float:right;">Add to Cart</button>
+	<div class="prepare">
+		<h1>PREPARE YOUR ORDER HERE</h1>
+	</div>
 
-        </div>
-        <div class="columnm" style="background-color:white;">
-            <img src="media/french.jpg" style="width:40% ;height:55%; text-align:center;  margin-top:26px; float:left;" />
-            <h2>FRENCH VANILLA</h2>
-            <h6>(A smooth-bodied coffee with a sweet aroma and a buttery vanilla flavor)</h6>
-            <ul>
-                Size &nbsp;&nbsp;:&nbsp;
-                <select id="size">
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
-                </select></br>
+	<div class="verticalnav">
+		<ul class="nav">
+			<li><a href="menu.html">Beverages</a></li>
+			<li><a href="bakery.html">Bakery</a></li>
+		</ul>
+	</div>
 
-                &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-                <input type="text" id="quantity" placeholder="0" style="width:11%" />
-            </ul>
-            <button type="button" id="Add" style="width:40%; float:right;">Add to Cart</button>
-        </div>
-    </div>
+	<div class="rowm" style="padding: 5%">
+		<div class="columnm" style="background-color: white;">
 
-    <div class="rowm" style="padding:5%">
-        <div class="columnm" style="background-color:white">
-            <img src="media/wc.png" style="width:40% ;height:55%; text-align:center; margin-top:26px; float:left;" />
-            <h2>WHITE CHOCOLATE</h2>
-            <h6>(White chocolate is made up of butter, sugar and milk solids and has a velvety smooth consistency.)</h6>
-            <ul>
-                Size &nbsp;&nbsp;:&nbsp;
-                <select id="size">
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
-                </select></br>
+			<div class="shop-items">
+				<div class="shop-item">
+					<span class="shop-item-name"> EXCLUSIVE BLEND </span> 
+					<img class="shop-item-image" src="media/esp.jpg"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+					<h6>(Brewed from 100% Arabica beans, medium roasted for a
+						balanced flavour)</h6>
+					<div class="shop-item-details">
+						<span class="shop-item-price">$9.99</span>
+					</div>
+					<ul>
+						
+						</br>&nbsp;&nbsp;
+						<button class="btn btn-primary addCartItemBtn" type="button"
+							id="Add" style="width: 40%; float: right;">Add to Cart</button>
+					</ul>
+					</ul>
+				</div>
+			</div>
+		
+		
+		</div> 
+		<div class="columnm" style="background-color: white;">
+			
+			<div class="shop-items">
+				<div class="shop-item">
+				<span class="shop-item-name"> French Vanilla </span> 
+				<img class="shop-item-image" src="media/french.jpg"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+					<h6>(A smooth-bodied coffee with a sweet aroma and a buttery
+						vanilla flavor)</h6>
+					<ul>
+						
+						<div class="shop-item-details">
+							<span class="shop-item-price">$5.99</span>
+						</div>
+						
+					</ul>
+					<button class="btn btn-primary addCartItemBtn" type="button"
+						id="Add" style="width: 40%; float: right;">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-                <input type="text" id="quantity" placeholder="0" style="width:11%" />
-            </ul>
-            <button type="button" id="Add" style="width:40%; float:right;">Add to Cart</button>
-        </div>
-        <div class="columnm" style="background-color:white;">
-            <img src="media/hazelnut.png" style="width:40% ;height:55%; text-align:center;  margin-top:26px; float:left;" />
-            <h2>FRENCH VANILLA</h2>
-            <h6>(A smooth-bodied coffee with a sweet aroma and a buttery vanilla flavor)</h6>
-            <ul>
-                Size &nbsp;&nbsp;:&nbsp;
-                <select id="size">
-                    <option>Small</option>
-                    <option>Medium</option>
-                    <option>Large</option>
-                </select></br>
+	<div class="rowm" style="padding: 5%">
+		<div class="columnm" style="background-color: white">
+			
+			<div class="shop-items">
+				<div class="shop-item">
+				<span class="shop-item-name"> White Chocolate </span> 
+				<img class="shop-item-image" src="media/wc.png"
+				style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+					<h6>(White chocolate is made up of butter, sugar and milk
+						solids and has a velvety smooth consistency.)</h6>
+					<ul>
+						
+						<div class="shop-item-details">
+							<span class="shop-item-price"> 7.99</span>
+						</div>
+						
+					</ul>
+					<button class="btn btn-primary addCartItemBtn" type="button"
+						id="Add" style="width: 40%; float: right;">Add to Cart</button>
+				</div>
+			</div>
+		</div>
+		<div class="columnm" style="background-color: white;">
+			
+			
+			<div class="shop-items">
+				<div class="shop-item">
+				<span class="shop-item-name"> French vanila </span> 
+				<img class="shop-item-image" src="media/hazelnut.png"
+				style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+				
+					<h6>(A smooth-bodied coffee with a sweet aroma and a buttery
+						vanilla flavor)</h6>
+					<ul>
+						
+						<div class="shop-item-details">
+							<span class="shop-item-price"> 3.99</span>
+						</div>
+						
+					</ul>
+					<button class="btn btn-primary addCartItemBtn" type="button"
+						id="Add" style="width: 40%; float: right;">Add to Cart</button>
+					
+				</div>
+			</div>
+		</div>
 
-                &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-                <input type="text" id="quantity" placeholder="0" style="width:11%" />
-            </ul>
-            <button type="button" id="Add" style="width:40%; float:right;">Add to Cart</button>
-        </div>
-    </div>
+		<section class="container content-section">
+			<h2 class="section-header">CART</h2>
+			<div class="cart-row">
+				<span class="cart-item cart-header cart-column">ITEM</span> <span
+					class="cart-price cart-header cart-column">PRICE</span> <span
+					class="cart-quantity cart-header cart-column">QUANTITY</span>
+			</div>
+			<div class="cart-items"></div>
+			<div class="cart-total">
+				<strong class="cart-total-title">Total</strong> <span
+					class="cart-total-price">$0</span>
+			</div>
+			<button class="btn btn-primary btn-order" type="button"> PROCESS ORDER</button>
+		</section>
+	</div>
 </body>
 </html>

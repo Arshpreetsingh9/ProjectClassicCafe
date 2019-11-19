@@ -11,6 +11,8 @@ Data Pirates
 <title>Classic Cafe</title>
 
 <link href="stylesheet.css" rel="stylesheet" />
+<script type="text/javascript" src="Cart.js"></script>
+
 </head>
 <body>
 	<header>
@@ -43,7 +45,6 @@ Data Pirates
 	<div class="prepare"">
 		<h1>PREPARE YOUR ORDER HERE</h1>
 	</div>
-
 	<div class="verticalnav">
 		<ul class="nav">
 			<li><a href="menu.html">Beverages</a></li>
@@ -52,83 +53,99 @@ Data Pirates
 	</div>
 	<div class="rowm" style="padding: 5%">
 		<div class="columnm" style="background-color: white;">
-			<img src="media/cinnamon.png"
-				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
-			<h2>CINNAMON ROLL</h2>
-			<h6>(Rolled bread with a pinch of Cinnamon and glazed with sugar
-				at top)</h6>
-			<ul>
-				Size &nbsp;&nbsp;:&nbsp;
-				<select id="size">
-					<option>Small</option>
-					<option>Medium</option>
-					<option>Large</option>
-				</select>
-				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
-			</ul>
-			<button type="button" id="Add" style="width: 38%; float: right;">Add
-				to Cart</button>
 
-		</div>
-		<div class="columnm" style="background-color: white;">
-			<img src="media/muffin.png"
-				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
-			<h2>MUFFIN</h2>
+			<div class="shop-items">
+				<div class="shop-item">
+					<span class="shop-item-name"> Cinnamon Roll </span> <img
+						class="shop-item-image" src="media/cinnamon.png"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+
+					<h6>(Rolled bread with a pinch of Cinnamon and glazed with
+						sugar at top)</h6>
+					<ul>
+						<div class="shop-item-details">
+							<span class="shop-item-price">$4.99</span>
+						</div>
+					</ul>
+					<button class="btn btn-primary addCartItemBtn" type="button"
+						id="Add" style="width: 38%; float: right;">Add to Cart</button>
+				</div>
+			</div>
+			</div>
+			<div class="columnm" style="background-color: white;">
+			<div class="shop-items">
+				<div class="shop-item">
+					<span class="shop-item-name"> Muffin </span> <img
+						class="shop-item-image" src="media/muffin.png"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+			
 			<h6>(Banana Chocolate chip muffin filled with white chocolate
 				cream)</h6>
-			<ul>
-				Size &nbsp;&nbsp;:&nbsp;
-				<select id="size">
-					<option>Small</option>
-					<option>Medium</option>
-					<option>Large</option>
-				</select>
-				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
-			</ul>
-			<button type="button" id="Add" style="width: 38%; float: right;">Add
+				<ul>
+						<div class="shop-item-details">
+							<span class="shop-item-price">$4.99</span>
+						</div>
+					</ul>
+			
+			<button class="btn btn-primary addCartItemBtn" type="button" id="Add" style="width: 38%; float: right;">Add
 				to Cart</button>
 		</div>
 	</div>
-
+	</div>
 	<div class="rowm" style="padding: 5%">
 		<div class="columnm" style="background-color: white">
-			<img src="media/cross.png"
-				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
-			<h2>BUTTER CROISSANT</h2>
+		<div class="shop-items">
+				<div class="shop-item">
+					<span class="shop-item-name"> Butter Croissant </span> <img
+						class="shop-item-image" src="media/cross.png"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+		
+		
 			<h6>(Regular croissant baked with a layer of butter inside.)</h6>
 			<ul>
-				Size &nbsp;&nbsp;:&nbsp;
-				<select id="size">
-					<option>Small</option>
-					<option>Medium</option>
-					<option>Large</option>
-				</select>
-				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
-			</ul>
-			<button type="button" id="Add" style="width: 38%; float: right;">Add
+						<div class="shop-item-details">
+							<span class="shop-item-price">$2.99</span>
+						</div>
+					</ul>
+			
+			<button class="btn btn-primary addCartItemBtn" type="button" id="Add" style="width: 38%; float: right;">Add
 				to Cart</button>
 		</div>
+		</div>
+		</div>
+		
 		<div class="columnm" style="background-color: white;">
-			<img src="media/donut.jpg"
-				style="width: 35%; height: 52%; text-align: center; margin-top: 26px; float: left;" />
-			<h2>GLAZED DONUT</h2>
+		
+		<div class="shop-items">
+				<div class="shop-item">
+					<span class="shop-item-name"> Glazed donut  </span> <img
+						class="shop-item-image" src="media/donut.png"
+						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
+
 			<h6>(A regular sweet donut with glazed sugar)</h6>
 			<ul>
-				Size &nbsp;&nbsp;:&nbsp;
-				<select id="size">
-					<option>Small</option>
-					<option>Medium</option>
-					<option>Large</option>
-				</select>
-				</br> &nbsp;&nbsp; Quantity &nbsp;&nbsp;: &nbsp;
-				<input type="text" id="quantity" placeholder="0" style="width: 11%" />
+				<div class="shop-item-details">
+							<span class="shop-item-price">$2.99</span>
+						</div>
 			</ul>
-			<button type="button" id="Add" style="width: 38%; float: right;">Add
+			<button class="btn btn-primary addCartItemBtn"  type="button" id="Add" style="width: 38%; float: right;">Add
 				to Cart</button>
 		</div>
+		</div>
 	</div>
+	<section class="container content-section">
+			<h2 class="section-header">CART</h2>
+			<div class="cart-row">
+				<span class="cart-item cart-header cart-column">ITEM</span> <span
+					class="cart-price cart-header cart-column">PRICE</span> <span
+					class="cart-quantity cart-header cart-column">QUANTITY</span>
+			</div>
+			<div class="cart-items"></div>
+			<div class="cart-total">
+				<strong class="cart-total-title">Total</strong> <span
+					class="cart-total-price">$0</span>
+			</div>
+			<button class="btn btn-primary btn-order" type="button"> PROCESS ORDER</button>
+		</section>
 </body>
 </html>
