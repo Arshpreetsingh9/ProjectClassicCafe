@@ -20,11 +20,11 @@ Data Pirates
             <nav>
                 <ul>
                     <li><a href="Contact.html">CONTACT US</a></li>
-                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="Home.html">HOME</a></li>
                     <li><a href="Menu.html">MENU</a></li>
                     <li><a href="Rewards.html">REWARDS</a></li>
-                    <li><a onclick="document.getElementById('sign_up_form').style.display='block'" style="width:auto;color:rgb(2, 126, 110); cursor: pointer;">Join now</a></li>
-                    <li><a onclick="document.getElementById('sign_in_form').style.display='block'" style="width:auto;color:rgb(2, 126, 110); cursor: pointer;">Log in</a></li>
+                    <li><a onclick="document.getElementById('sign_up_form').style.display='block'" style="width:auto;color:rgb(2, 126, 110); cursor: pointer;">JOIN NOW</a></li>
+                    <li><a onclick="document.getElementById('sign_in_form').style.display='block'" style="width:auto;color:rgb(2, 126, 110); cursor: pointer;">LOG IN</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,16 +50,16 @@ Data Pirates
     
     <div id="sign_up_form" class="modal">
  <!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>-->
-  <form class="modal-content" method="post" action="hello">
+  <form class="modal-content" action="/htmlform/LoginServlet">
     <div class="container">
       <h1>Sign Up</h1>
       <p>Please fill in this form to create an account.</p>
       <hr>
       <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" id="customer_email" name="email" required>
+      <input type="text" placeholder="Enter Email" name="email" required>
 
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" id="customer_password" name="password" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
 
       <label><b>Repeat Password</b></label>
       <input type="password" placeholder="Repeat Password" name="password-repeat" required>
@@ -84,10 +84,10 @@ Data Pirates
       <p>Please enter your email and password</p>
       <hr>
       <label><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="login_email" required>
+      <input type="text" placeholder="Enter Email" name="email" required>
 
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="login_password" required>
+      <input type="password" placeholder="Enter Password" name="password" required>
 
 
       <div class="clearfix">

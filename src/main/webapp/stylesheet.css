@@ -307,7 +307,7 @@ div.prepare {
 }
 
 .btn-primary:hover {
-    background-color: #2D9CDB;
+    background-color: #EB5757;
 }
 
 .container {
@@ -407,15 +407,15 @@ div.prepare {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
-.btn-danger {
+.removeItemButton {
     color: white;
-    background-color: #EB5757;
+    background-color: black;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
-.btn-danger:hover {
+.removeItemButton:hover {
     background-color: #CC4C4C;
 }
 body {
