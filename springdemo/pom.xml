@@ -8,6 +8,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springdemo Maven Webapp</name>
 	<url>http://maven.apache.org</url>
+	<properties>
+	<failOnMissingWebXml>false</failOnMissingWebXml>
+	<maven.compiler.target>9</maven.compiler.target>
+	<maven.compiler.source>9</maven.compiler.source>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.ucanaccess</groupId>

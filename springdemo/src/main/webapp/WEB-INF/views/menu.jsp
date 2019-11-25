@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <!DOCTYPE html>
 <!--
 Data Pirates
@@ -12,15 +12,15 @@ Data Pirates
 <head>
 <meta charset="utf-8" />
 <title>Classic Cafe</title>
-<!--<link href="stylesheet.css" rel="stylesheet" />
-<script type="text/javascript" src="Cart.js"></script>
-  -->
 
+<link href='<spring:url value="/resources/css/css/stylesheet.css/"/>' rel="stylesheet">
+<script type="text/javascript" src="<spring:url value="/resources/js/Cart.js/"/>">
+</script>
 </head>
 <body>
 	<header>
 		<div class=" horizontalnav" style="overflow: hidden;">
-			<img src="media/image.png"
+			<img src='<spring:url value="/images/media/image.png/"/>'
 				style="width: 130px; height: 90px; float: left; margin-left: 5%">
 			<nav>
 				<ul>
