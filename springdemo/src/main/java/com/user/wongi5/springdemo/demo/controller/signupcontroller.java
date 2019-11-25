@@ -23,6 +23,7 @@ public class signupcontroller {
 	 */
 	@ModelAttribute("SimpleServletGetter")
 	public SimpleServerletGetter setSimpleServletGetter() {
+		
 		return new SimpleServerletGetter();
 	}
 
