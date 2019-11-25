@@ -57,7 +57,7 @@ Data Pirates
 
 	<div id="sign_up_form" class="modal">
 		<!-- <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>-->
-		<form class="modal-content" action="/htmlform/LoginServlet">
+		<form class="modal-content" method="post" action="/hello">
 			<div class="container">
 				<h1>Sign Up</h1>
 				<p>Please fill in this form to create an account.</p>
