@@ -5,9 +5,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
 import java.sql.*;
 
 @WebServlet("/hello")
+
 public class SimpleServlet extends HttpServlet {
 	/**
 	*
@@ -49,7 +53,7 @@ public class SimpleServlet extends HttpServlet {
 			//resultSet = statement.executeQuery(loginquery);
 			
 			//Connection to database.
-			String msAccDB = "C:/Users/25ars/Documents/Employee.accdb";
+			String msAccDB = "C:/Temp/Employee.accdb";
 			String dbURL = "jdbc:ucanaccess://" + msAccDB;
 			// Step 2.A: Create and get connection
 			// using DriverManager class
