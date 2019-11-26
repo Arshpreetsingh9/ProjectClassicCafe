@@ -23,10 +23,9 @@ Data Pirates
 				width = "130px" height = "90px" float="left" margin-left="5%" >
 			<nav>
 				<ul>
-					<li><a href="Contact.html">CONTACT US</a></li>
+					<li><a href="contact">CONTACT US</a></li>
 					<li><a href="home">HOME</a></li>
 					<li><a href="menu">MENU</a></li>
-					<li><a href="Rewards.html">REWARDS</a></li>
 					<li><a
 						onclick="document.getElementById('sign_up_form').style.display='block'"
 						style="width: auto; color: rgb(2, 126, 110); cursor: pointer;">JOIN
@@ -45,7 +44,7 @@ Data Pirates
 	<div class=" slideshow-container">
 		<div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
-			<img src="media/c.jpeg" style="width: 80%; height: 450px;">
+			<img alt="hnji" src='<spring:url value="/images/c.jpeg/"/>' style="width: 80%; height: 450px;">
 		</div>
 		<div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
@@ -144,9 +143,11 @@ Data Pirates
 		</div>
 		<div class="column" style="background-color: rgb(112, 198, 173)";>
 			<img src="media/award.png"
-				style="width: 35%; height: 50%; text-align: center; margin-top: 26px;" />
-			<h2>AWARDS</h2>
-			<p>Get rewarded for your purchases.</p>
+				style="width: 15%; height: 20%; text-align: center; margin-top: 26px;" />
+			<h2>Rewards</h2>
+			<h2>7 purchases earns you a reward</h2>
+			<h1>Current rewards: ${rewards}</h1>
+			<h1>Current puchases: ${purchases}</h1>
 		</div>
 		<div class="column" style="background-color: rgb(221, 224, 223);">
 			<img src="media/loc.png"

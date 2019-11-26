@@ -75,10 +75,32 @@ public class signupcontroller {
 // ...
 		System.out.println("Email : " + SimpleServletGetter.getemail());
 		System.out.println("Password : " + SimpleServletGetter.getpassword());
-		model.addAttribute("message", "User SignIn successfully.");
-		model.addAttribute("user", SimpleServletGetter);
+		
 		SimpleServlet ss=new SimpleServlet();
 		ss.login(SimpleServletGetter.getemail(), SimpleServletGetter.getpassword());
+		model.addAttribute("message", "User SignIn successfully.");
+		model.addAttribute("rewards", SimpleServlet.ssg.getRewards());
+		model.addAttribute("purchases", SimpleServlet.ssg.getPurchases());
+		
 		return "home";
 	}
+
+
+@PostMapping("/purchaseSimpleServletGetter")
+public String purchase(@ModelAttribute("SimpleServletGetter") SimpleServerletGetter SimpleServletGetter, Model model) 
+		throws ServletException, IOException {
+//Implement business logic to increases purchase and rewards in database
+//...
+	
+	model.addAttribute("message", "User SignIn successfully.");
+	System.out.println("Email : " + SimpleServlet.ssg.getemail());
+	System.out.println("Password : " + SimpleServletGetter.getpassword());
+	SimpleServlet ss=new SimpleServlet();
+	ss.purchase(SimpleServlet.ssg.getemail(),SimpleServlet.ssg.getpassword());
+	model.addAttribute("user", SimpleServletGetter);
+	model.addAttribute("rewards", SimpleServlet.ssg.getRewards());
+	model.addAttribute("purchases", SimpleServlet.ssg.getPurchases());
+	
+	return "home";
+}
 }

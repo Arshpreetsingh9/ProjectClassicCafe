@@ -20,29 +20,22 @@ Data Pirates
 <body>
 	<header>
 		<div class=" horizontalnav" style="overflow: hidden;">
-			<img src='<spring:url value="/images/media/image.png/"/>'
+			<img alt="hnji" src='<spring:url value="/images/c.jpeg/"/>'
 				style="width: 130px; height: 90px; float: left; margin-left: 5%">
 			<nav>
 				<ul>
 					<li><a href="Contact.html">CONTACT US</a></li>
 					<li><a href="home">HOME</a></li>
 					<li><a href="menu">MENU</a></li>
-					<li><a href="Rewards.html">REWARDS</a></li>
-					<li><a
-						onclick="document.getElementById('sign_up_form').style.display='block'"
-						style="width: auto; color: rgb(2, 126, 110); cursor: pointer;">JOIN
-							NOW</a></li>
-					<li><a
-						onclick="document.getElementById('sign_in_form').style.display='block'"
-						style="width: auto; color: rgb(2, 126, 110); cursor: pointer;">LOG
-							IN</a></li>
+					<li><a>REWARDS</a></li>
+					
 				</ul>
 			</nav>
 		</div>
 
 	</header>
 	<br />
-	<img src="media/menucoffee.jpeg" class="menuimage"
+	<img alt="hnji" src='<spring:url value="/images/menucoffee.jpeg/"/>' class="menuimage"
 		style="width: 100%; height: 550px;">
 
 	<div class="prepare">
@@ -248,8 +241,11 @@ Data Pirates
 			<strong class="cart-total-title">Total</strong> <span
 				class="cart-total-price">$0</span>
 		</div>
-		<button class="btn btn-primary btn-order" type="button">
+		<form class="modal-content" method="post" action="purchaseSimpleServletGetter"
+			modelAttribute="home">
+		<button class="btn btn-primary btn-order" type="submit">
 			PROCESS ORDER</button>
+			</form>
 	</section>
 	</div>
 </body>
