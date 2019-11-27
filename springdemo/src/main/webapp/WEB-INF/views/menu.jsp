@@ -20,14 +20,13 @@ Data Pirates
 <body>
 	<header>
 		<div class=" horizontalnav" style="overflow: hidden;">
-			<img alt="hnji" src='<spring:url value="/images/c.jpeg/"/>'
+			<img alt="hnji" src='<spring:url value="/images/image.png/"/>'
 				style="width: 130px; height: 90px; float: left; margin-left: 5%">
 			<nav>
 				<ul>
-					<li><a href="Contact.html">CONTACT US</a></li>
+					<li><a href="contact">CONTACT US</a></li>
 					<li><a href="home">HOME</a></li>
 					<li><a href="menu">MENU</a></li>
-					<li><a>REWARDS</a></li>
 					
 				</ul>
 			</nav>
@@ -70,7 +69,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>VANILLA CHAI</h2></span> <img
-						class="shop-item-image" src="media/french.jpg"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/french.jpg/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 					<h6>(A smooth-bodied skim milk with a sweet aroma and a
 						buttery vanilla flavor)</h6>
@@ -96,7 +95,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>WHITE CHOCOLATE</h2> </span> <img
-						class="shop-item-image" src="media/wc.png"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/wc.png/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 					<h6>(White chocolate is made up of butter, sugar and milk
 						solids and has a velvety smooth consistency.)</h6>
@@ -118,7 +117,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>FRENCH VANILLA</h2> </span> <img
-						class="shop-item-image" src="media/Hazelnut.png"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/hazelnut.png/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 
 					<h6>(A smooth-bodied coffee with a sweet aroma and a buttery
@@ -144,7 +143,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>CINNAMON ROLL</h2></span> <img
-						class="shop-item-image" src="media/cinnamon.png"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/cinnamon.png/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 
 					<h6>(Rolled bread with a pinch of Cinnamon and glazed with
@@ -164,7 +163,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>MUFFIN</h2> </span> <img
-						class="shop-item-image" src="media/muffin.png"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/muffin.png/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 
 					<h6>(Banana Chocolate chip muffin filled with white chocolate
@@ -187,7 +186,7 @@ Data Pirates
 				<div class="shop-item">
 					<span class="shop-item-name">
 						<h2>BUTTER CROISSAUNT</h2>
-					</span> <img class="shop-item-image" src="media/cross.png"
+					</span> <img class="shop-item-image" alt="hnji" src='<spring:url value="/images/cross.png/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 
 
@@ -207,7 +206,7 @@ Data Pirates
 			<div class="shop-items">
 				<div class="shop-item">
 					<span class="shop-item-name"><h2>GLAZED DONUT</h2> </span> <img
-						class="shop-item-image" src="media/donut.jpg"
+						class="shop-item-image" alt="hnji" src='<spring:url value="/images/donut.jpg/"/>'
 						style="width: 40%; height: 55%; text-align: center; margin-top: 26px; float: left;" />
 
 

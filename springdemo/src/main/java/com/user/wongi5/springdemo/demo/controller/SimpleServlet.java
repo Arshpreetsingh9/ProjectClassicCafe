@@ -58,6 +58,7 @@ public class SimpleServlet extends HttpServlet {
 			String cust_password =password;
 			String cust_confirmPassword = confirmPassword;
 			int cust_reward = 1;
+			int cust_purchases = 0;
 			String cust_Favorites = " ";
 			
 			System.out.println("this is from servlet class "+email+" "+password);
@@ -78,8 +79,8 @@ public class SimpleServlet extends HttpServlet {
 			// Adding customer info to database.
 
 		//	if (cust_repeatpass.equals(cust_password)) {
-				String insertSQL = "INSERT INTO CUSTOMER (EMAIL, PASSWORD, REWARDS, fAVORITES) " + "VALUES ('"
-						+ cust_email + "', '" + cust_password + "', '" + cust_reward + "', '" + cust_Favorites + "')";
+				String insertSQL = "INSERT INTO CUSTOMER (EMAIL, PASSWORD, REWARDS, PURCHASES, FAVORITES) " + "VALUES ('"
+						+ cust_email + "', '" + cust_password + "', '" + cust_reward + "', '" +cust_purchases+"', '"+ cust_Favorites + "')";
 				statement.executeUpdate(insertSQL);
 
 

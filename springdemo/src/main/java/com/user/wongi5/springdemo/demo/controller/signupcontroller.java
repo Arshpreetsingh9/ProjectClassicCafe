@@ -44,6 +44,12 @@ public class signupcontroller {
 	   return "menu";
 	}
 	
+	@RequestMapping("/contact")
+	public String contact() {
+	System.out.println("contact");
+	   return "contact";
+	}
+	
 	/**
 	 * Save User sign up form
 	 *

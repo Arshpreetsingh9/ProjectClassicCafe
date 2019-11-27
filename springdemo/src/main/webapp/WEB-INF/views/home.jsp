@@ -48,7 +48,7 @@ Data Pirates
 		</div>
 		<div class="mySlides fade">
 			<div class="numbertext">1 / 3</div>
-			<img src="media/cc2.jpg" style="width: 80%; height: 450px;">
+			<img alt="hnji" src='<spring:url value="/images/cc2.jpg/"/>' style="width: 80%; height: 450px;">
 		</div>
 
 		<!-- NEXT AND PREVIOUS BUTTONS -->
@@ -136,13 +136,13 @@ Data Pirates
 
 	<div class="row">
 		<div class="column" style="background-color: rgb(8, 154, 135);">
-			<img src="media/menu.png"
-				style="width: 35%; height: 50%; text-align: center; margin-top: 26px;" />
-			<h2>MENU</h2>
-			<p>Select items for your order.</p>
+			<img alt="hnji" src='<spring:url value="/images/menu.png/"/>'
+				style="width: 15%; height: 20%; text-align: center; margin-top: 26px;" />
+			<h2>Favorites</h2>
+			<p></p>
 		</div>
 		<div class="column" style="background-color: rgb(112, 198, 173)";>
-			<img src="media/award.png"
+			<img alt="hnji" src='<spring:url value="/images/award.png/"/>'
 				style="width: 15%; height: 20%; text-align: center; margin-top: 26px;" />
 			<h2>Rewards</h2>
 			<h2>7 purchases earns you a reward</h2>
@@ -150,7 +150,7 @@ Data Pirates
 			<h1>Current puchases: ${purchases}</h1>
 		</div>
 		<div class="column" style="background-color: rgb(221, 224, 223);">
-			<img src="media/loc.png"
+			<img alt="hnji" src='<spring:url value="/images/loc.png/"/>'
 				style="width: 35%; height: 50%; text-align: center; margin-top: 26px" ;" />
 			<h2>VISIT</h2>
 			<p>Locate us on the map</p>
